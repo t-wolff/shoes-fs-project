@@ -1,0 +1,53 @@
+.shoe-item {
+    background: #7E7E7E;
+    height: 50rem;
+    width: 42rem;
+    text-align: center;
+    color: #C1C1C1;
+    margin: 2.8rem;
+    margin-top: 10rem;
+}
+
+img {
+    height: 40rem;
+    height: 40rem;
+}
+
+.btn {
+    color: #7E7E7E;
+    background-color: #C1C1C1;
+    border: none;
+    height: 4.6rem;
+    width: 4.6rem;
+    border-radius: 50%;
+    margin-left: 1rem;
+}
+
+
+.buttons-container {
+    display: flex;
+    margin-top: 1.5rem;
+    margin-left: 0.4rem;
+    margin-bottom: -2rem;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: -1rem;
+    margin-left: 7rem;
+}
+
+.input-name {
+    height: 4rem;
+    width: 20rem;
+    background-color: #C1C1C1;
+    color: #7E7E7E;
+}
+
+.input-btn {
+    border-radius: 50%;
+    height: 4.6rem;
+    width: 4.6rem;
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,36 @@
+.form-container {
+    height: 78.7vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 40rem;
+}
+
+input {
+    height: 4rem;
+    border-radius: 0.8rem;
+    border: none;
+    margin: 1rem;
+}
+
+input :focus {
+    border: none;
+}
+
+label {
+    font-size: 2rem;
+    color: #616161;
+    margin-top: 0.8rem;
+}
+
+.submit-btn {
+    background: #616161;
+    color: #C1C1C1;
+    font-size: 2rem;
+}
