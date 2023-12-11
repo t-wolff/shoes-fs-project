@@ -1,7 +1,6 @@
 import { ShoeItem } from '../../components';
 import './shoesPage.css';
 import { useGlobalShoeContext } from '../../hooks/useGlobalShoeContext';
-// const URL = "https://650ae867dfd73d1fab092778.mockapi.io/shoes/shoe"
 
 function ShoesPage() {
 	const { shoes, isLoading } = useGlobalShoeContext();

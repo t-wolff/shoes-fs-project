@@ -1,9 +1,7 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import { useState } from 'react';
 
 import { SharedLayout } from './components';
 import { AddShoePage, ShoesPage, NotFound} from './pages';
-import './App.css';
 
 const routes = [
 	{
