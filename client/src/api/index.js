@@ -6,7 +6,8 @@ const baseURL =
 		: import.meta.env.VITE_BASE_URL_PRODUCTION;
 
 const API = axios.create({ baseURL });
-
+console.log(API);
+console.log(baseURL)
 API.interceptors.response.use(
 	(response) => response,
 	(error) => {
